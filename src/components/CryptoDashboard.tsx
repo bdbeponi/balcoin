@@ -29,6 +29,7 @@ import {
 import { SunIcon, MoonIcon } from "@heroicons/react/24/solid";
 import StaticCurrencyCard from "./StaticCurrencyCard";
 import { fetchCryptoData } from "../utils/api";
+import Link from "next/link";
 
 const { Header, Content } = Layout;
 
@@ -54,24 +55,24 @@ export default function CryptoDashboard() {
         "atl_change_percentage": 136183.9798,
         "atl_date": "2013-07-06T00:00:00.000Z",
         "circulating_supply": 19784446,
-        "current_price": 10,
+        "current_price": 310,
         "fully_diluted_valuation": 1938297656764,
         "high_24h": 92653,
-        "id": "balcoin",
-        "image": "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400",
+        "id": "bapple",
+        "image": "https://api.skillerszone.com//photos/blog/images/dall_e_2024-11-19_19.51.36_-_a_circular_cryptocurrency_logo_for__bapple___resembling_bitcoin_with_a_gold_background__featuring_the_letter__b__in_bold_white_at_the_center._an_apple-removebg-preview-1732024402002.png",
         "last_updated": "2024-11-19T12:48:05.070Z",
         "low_24h": 89443,
-        "market_cap": 1826102158198,
+        "market_cap": 1826102158,
         "market_cap_change_24h": 30454883321,
         "market_cap_change_percentage_24h": 1.69604,
         "market_cap_rank": 1,
         "max_supply": 21000000,
-        "name": "Balcoin",
+        "name": "Bapple",
         "price_change_24h": 1528.4,
         "price_change_percentage_24h": 1.6851,
         "roi": null,
-        "sparkline_in_7d": {price: [400]},
-        "symbol": "bal",
+        "sparkline_in_7d": {price: [57, 103, 200, 150, 310]},
+        "symbol": "bap",
         "total_supply": 21000000,
         "total_volume": 80805119651
       }
@@ -162,6 +163,9 @@ export default function CryptoDashboard() {
         >
           Crypto Dashboard
         </h1>
+        <Link href="/payment">
+        <Button>Buy Bapple</Button>
+        </Link>
         <Switch
           checkedChildren={<MoonIcon className="h-4 w-4" />}
           unCheckedChildren={<SunIcon className="h-4 w-4" />}
