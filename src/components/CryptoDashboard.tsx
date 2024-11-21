@@ -71,7 +71,7 @@ export default function CryptoDashboard() {
         "price_change_24h": 1528.4,
         "price_change_percentage_24h": 1.6851,
         "roi": null,
-        "sparkline_in_7d": {price: [57, 103, 200, 150, 310]},
+        "sparkline_in_7d": {price: [0.48, 0.86, 1.67, 1.26, 2.59]},
         "symbol": "bap",
         "total_supply": 21000000,
         "total_volume": 80805119651
