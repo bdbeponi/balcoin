@@ -42,8 +42,11 @@ const Payment = () => {
               Enter the amount you want to pay and confirm the transaction.
             </li>
             <li>
-              Make sure to mention the reason for the payment in the "Payment
-              For" section (optional).
+              Make sure When you purchase the coin send us Your full name with
+              phone number and the screenshot to our whatsapp number 01921372427, you will get your profile with userID with in 24 hour.
+            </li>
+            <li>
+              If you have any query please direct call us at this number 01921372427
             </li>
           </ul>
         </div>
