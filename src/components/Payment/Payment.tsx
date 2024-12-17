@@ -24,7 +24,7 @@ const Payment = () => {
             />
           </div>
           <p className="text-center text-gray-600">
-            To make a payment, send the amount to <strong>01921372427</strong>{" "}
+            To make a payment, send the amount to <strong>01623757846</strong>{" "}
             via Nagad.
           </p>
         </div>
@@ -36,17 +36,17 @@ const Payment = () => {
             <li>Open your Nagad app or dial *167#.</li>
             <li>
               Select "Send Money" and enter the number{" "}
-              <strong>01921372427</strong>.
+              <strong>01623757846</strong>.
             </li>
             <li>
               Enter the amount you want to pay and confirm the transaction.
             </li>
             <li>
               Make sure When you purchase the coin send us Your full name with
-              phone number and the screenshot to our whatsapp number 01921372427, you will get your profile with userID with in 24 hour.
+              phone number and the screenshot to our whatsapp number 01623757846, you will get your profile with userID with in 24 hour.
             </li>
             <li>
-              If you have any query please direct call us at this number 01921372427
+              If you have any query please direct call us at this number 01623757846
             </li>
           </ul>
         </div>

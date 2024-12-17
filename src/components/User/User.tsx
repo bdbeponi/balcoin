@@ -41,7 +41,7 @@ export default function UserProfile() {
         <div className="flex justify-between items-center bg-gray-100 p-3 rounded">
           <span className="font-medium">Total Value:</span>
           <span className="text-green-600 font-semibold">
-            ${user.totalCoin * 1.01}
+            ${user.totalCoin * 1.04}
           </span>
         </div>
       </div>
